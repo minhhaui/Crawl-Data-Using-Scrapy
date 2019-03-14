@@ -1,7 +1,7 @@
-# crawl-data
+# Crawl-Data
 Using Scrapy FrameWork crawl question in StackOverFlow
 
-- INSTALL DEPENDENCY
+# INSTALL DEPENDENCY
    
    pip install scrapy
    
@@ -9,7 +9,7 @@ Using Scrapy FrameWork crawl question in StackOverFlow
   
       scrapy startproject stack
 
-- Tree Project:
+# Tree Project:
 
   crawl-data/
     scrapy.cfg            # deploy configuration file
@@ -29,7 +29,7 @@ Using Scrapy FrameWork crawl question in StackOverFlow
             __init__.py
             stack_spiders.py
  
- - Run crawler:
+ # Run crawler:
   
           scrapy crawl "name"
           -----
